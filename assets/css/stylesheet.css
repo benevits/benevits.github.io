@@ -504,9 +504,23 @@ body {
 	.cat2 {
 		-webkit-box-flex:1;
 		-ms-flex:1;
-		flex: 0.40;
-		text-align: left;
+		flex: 1;
 		margin-bottom: 30px;
+	}
+
+	.cat3 {
+		-webkit-box-flex:1;
+		-ms-flex:1;
+		flex: 1;
+		margin-bottom: 30px;
+	}
+
+	.cat1 h2 {
+		font-size: 32px;
+		font-weight: 800;
+		color: #383B61;
+		line-height: 1.2;
+		margin-top: -60px;
 	}
 
 	.cat2 h4 {
@@ -526,6 +540,24 @@ body {
 		margin-top: 15px;
 	}
 
+	.cat3 h4 {
+		font-size: 13px;
+		font-weight: 600;
+		color: #21bf73;
+		line-height: 1.2;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		margin-top: -100px;
+	}
+
+	.cat3 h2 {
+		font-size: 32px;
+		font-weight: 800;
+		color: #383B61;
+		line-height: 1.2;
+		margin-top: 15px;
+	}
+
 	.cat2 p {
 		font-size: 16px;
 	  font-weight: 400;
@@ -539,7 +571,7 @@ body {
 	.cat-item {
 		margin-bottom: 25px;
 		margin-right: 0;
-		padding: 50px 50px;
+		padding: 50px;
 		border-radius: 1px;
 		background: #FFFFFF;
 		cursor: pointer;
@@ -547,8 +579,8 @@ body {
 	}
 
 	.cat-item.clr1 {
-		background: #f6eedf;
-		background: #fff2e5;
+		background: #f8f9fa;
+		background: #f8f9fa;
 	}
 
 	.cat-item.clr2 {
@@ -556,7 +588,10 @@ body {
 	}
 
 	.cat-item.clr3 {
-		background: #f0f5f9;
+		background: #f8f9fa;
+	}
+	.cat-item.clr4 {
+		background: #f8f9fa;
 		margin-right: 0;
 		padding-right: 50px;
 	}
@@ -1674,6 +1709,10 @@ body {
 	}
 
 	.cat2 h2 {
+		font-size: 34px;
+	}
+
+	.cat3 h2 {
 		font-size: 34px;
 	}
 
